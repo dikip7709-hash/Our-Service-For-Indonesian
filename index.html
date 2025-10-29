@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <section id="contentNavbar" class="navbar">
+    <div class="navbar-container">
+    <img onclick="scrollToHome()" class="logo-company" src="Untitled-1.png" alt="image-company">
+    <nav>
+      <ul class="list-navbar">
+        <li><a href="https://linktr.ee/PlacePlate">Template</a></li>
+        <li><a onclick="scrollToAbout()">About</a></li>
+        <li><a onclick="scrollToService()">Service</a></li>
+        <li><a onclick="scrollToTestimonial()" >Testimonial</a></li>
+      </ul>
+      <hr style="display: none;">
+      <ul class="media-sosial">
+        <li class="tiktok"><a href="https://www.tiktok.com/@placeplate?is_from_webapp=1&sender_device=pc"><img src="tiktok-brands-solid-full.svg" alt=""></a></li>
+        <li class="Instagram"><a href="https://www.instagram.com/placeplate12345/"><img src="instagram-brands-solid-full.svg" alt=""></a></li>
+        <li class="pinterest"><a href="https://pin.it/2KmyRvOS8"><img src="pinterest-p-brands-solid-full.svg" alt=""></a></li>
+      </ul>
+      <div id="btnRespons" onclick="barsDisplay()" class="bars"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+    </div>
+  </section>
+  <section id="listResponse" class="navbar-responsive">
+    <nav class="container-responsive">
+   <ul class="list-navbar-responsive">
+        <li><a href="https://linktr.ee/PlacePlate">Template</a></li>
+        <li><a onclick="scrollToAbout()">About</a></li>
+        <li><a onclick="scrollToService()">Service</a></li>
+        <li><a onclick="scrollToTestimonial()">Testimonial</a></li>
+      </ul>
+      <ul class="media-sosial-responsive">
+        <li class="tiktok"><a href="https://www.tiktok.com/@placeplate?is_from_webapp=1&sender_device=pc"><img src="tiktok-brands-solid-full.svg" alt=""></a></li>
+        <li class="Instagram"><a href="https://www.instagram.com/placeplate12345/"><img src="instagram-brands-solid-full.svg" alt=""></a></li>
+        <li class="pinterest"><a href="https://pin.it/2KmyRvOS8"><img src="pinterest-p-brands-solid-full.svg" alt=""></a></li>
+      </ul>
+      </nav>
+  </section>
+  <section id="homePage" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-text">
+      <div class="tag-powerpoint"><img src="Microsoft_PowerPoint-Logo.wine 1.png" alt="">PowerPoint</div>
+      <h1><span style="color: #00BECC;">TRANSFORM</span> YOUR PRESENT</h1>
+      <p>we turn presentations into powerful storytelling experiences.</p>
+      </div>
+      <div class="btn-container"><div onclick="goToStore()" class="scroll-animate btn-template">Template</div><div onclick="scrollToService()" class="scroll-animate btn-service">Service</div></div>
+    </div>
+    <div class="scroll-animate image-project">
+      <img src="Screenshot 2025-10-13 144809.png">
+    </div>
+  </section>
+  <section class="template-popular">
+    <div class="template-popular-container">
+    <div class="title-section">
+      <div class="tag-template"><img src="layout_18998679.gif" alt="">Template</div>
+      <h1>Featured Template</h1>
+      <div class="btn-allTemplate"><a href="https://linktr.ee/PlacePlate">Browse All<i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
+    <div class="theTemplate">
+    <div class="scroll-animate template-20"><img src="Screenshot 2025-10-14 150021.png" alt=""><div class="template-20-container">...PowerPoint 20 <div class="tagPopular">Popular</div></div><small>Price $2,5</small></div>
+    <div class="scroll-animate template-23"><img src="Screenshot 2025-10-14 150039.png" alt=""><div class="template-23-container">...PowerPoint 23 <div class="tagPopular">Popular</div></div><small>Price $2,5</small></div>
+    </div>
+    </div>
+  </section>
+  <section id="aboutPage" class="About-Section">
+    <div class="About-Container">
+    <div class="title-about-section">
+      <div class="tag-aboutMe"><img src="user_18986440.gif">About Me</div>
+      <h1>Hello I'm PlacePlate</h1>
+      <p>At Place Plate, we believe every presentation tells a story. Our mission is to turn complex ideas into clear, engaging, and visually stunning slides</p>
+    </div>
+    <div class="about-sectionVideo">
+      <div class="scroll-animate video1">
+      <video autoplay muted loop playsinline src="lv_0_20251013144033.mp4"></video></div>
+      <div class="scroll-animate video2">
+      <video autoplay muted loop playsinline src="4b7883b53e29f70df784c00faa360eb9.mp4"></video></div>
+      <div class="scroll-animate video3">
+      <video autoplay muted loop playsinline src="1008.mp4"></video></div>
+    </div>
+    </div>
+  </section>
+  <section class="conparison-section">
+    <div class="conparison-container">
+      <div class="explainComparision">
+        <h1>Before VS After</h1><p>See the Results</p>
+      </div>
+      <div class="bfaf-video">
+        <div class="scroll-animate"><iframe
+src="https://www.youtube.com/embed/p_AUecKekQc" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen>
+</iframe></div>
+<div class="scroll-animate"><iframe
+src="https://www.youtube-nocookie.com/embed/bmxJWm6H_54" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen>
+</iframe></div>
+      </div>
+    </div>
+  </section>
+  <section id="servicePage" class="service-section">
+    <div class="service-container">
+      <div class="tittleService">
+        <div>
+        <h1>Service Price</h1><p>From concept to completion, we've built pricing that supports your entire creative journey — clear, simple, and fair.</p></div>
+        <div class="btn-display"><div class="displayLink"><p>Package</p><p>Perslide</p></div></div>
+      </div>
+      <div class="list-price">
+      <div class="scroll-animate Price1">
+        <div class="text-price1">
+        <p>Basic Plan</p>
+        <h1>$25</h1>
+        <small>10 Slide</small></div>
+        <ul class="list-benefit1-1">
+          <li><img src="Group.svg" alt=""><p>Morph & Smart Animation</p></li>
+          <li><img src="Group.svg" alt=""><p>Custom PowerPoint Design</p></li>
+          <li><img src="Group.svg" alt=""><p>Visual Storytelling Structure</p></li>
+          <li><img src="Group.svg" alt=""><p>Free Revision (3X)</p></li>
+          <li><img src="Group.svg" alt=""><p>Premium Visual Asset</p></li>
+          <li><img src="Group.svg" alt=""><p>1 - 2 Days</p></li>
+        </ul>
+        <div onclick="scrollToForm()" class="btn-started">Get Started</div>
+      </div>
+      <div class="scroll-animate Price2">
+        <div class="text-price2">
+        <p>Standard Plan</p>
+        <h1>$50</h1>
+        <small>20 Slide</small></div>
+        <ul class="list-benefit2-2">
+          <li><img src="Group.svg" alt=""><p>Morph & Smart Animation</p></li>
+          <li><img src="Group.svg" alt=""><p>Custom PowerPoint Design</p></li>
+          <li><img src="Group.svg" alt=""><p>Visual Storytelling Structure</p></li>
+          <li><img src="Group.svg" alt=""><p>Free Revision (3X)</p></li>
+          <li><img src="Group.svg" alt=""><p>Premium Visual Asset</p></li>
+          <li><img src="Group.svg" alt=""><p>2 - 3 Days</p></li>
+        </ul>
+        <div onclick="scrollToForm()" class="btn-started2">Get Started</div>
+      </div>
+      <div class="scroll-animate Price3">
+        <div class="text-price3">
+        <p>Pro Plan</p>
+        <h1>$75</h1>
+        <small>30 Slide</small></div>
+        <ul class="list-benefit3-3">
+          <li><img src="Group.svg" alt=""><p>Morph & Smart Animation</p></li>
+          <li><img src="Group.svg" alt=""><p>Custom PowerPoint Design</p></li>
+          <li><img src="Group.svg" alt=""><p>Visual Storytelling Structure</p></li>
+          <li><img src="Group.svg" alt=""><p>Free Revision (3X)</p></li>
+          <li><img src="Group.svg" alt=""><p>Premium Visual Asset</p></li>
+          <li><img src="Group.svg" alt=""><p>3 - 4 Days</p></li>
+        </ul>
+        <div onclick="scrollToForm()" class="btn-started3">Get Started</div>
+      </div>
+      <div class="scroll-animate PerslideBtn">
+        <div class="text-perslide">
+        <p>Per Slide</p>
+        <h1>$2,5</h1>
+        <small>??? Slide</small></div>
+        <ul class="list-benefitPer">
+          <li><img src="Group.svg" alt=""><p>Morph & Smart Animation</p></li>
+          <li><img src="Group.svg" alt=""><p>Custom PowerPoint Design</p></li>
+          <li><img src="Group.svg" alt=""><p>Visual Storytelling Structure</p></li>
+          <li><img src="Group.svg" alt=""><p>Free Revision (3X)</p></li>
+          <li><img src="Group.svg" alt=""><p>Premium Visual Asset</p></li>
+          <li><img src="Group.svg" alt=""><p>??? Days</p></li>
+        </ul>
+        <div onclick="scrollToForm()" class="btn-startedper">Get Started</div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <section class="works-section">
+    <div class="works-container">
+      <div class="textWorks-container">
+        <div class="tag-Howit-Work"><img src="prioritize_17907856.gif">Step By Step</div>
+        <h1>How It Works</h1>
+      </div>
+      <div class="listWorks-container">
+        <div class="scroll-animate list-work1"><div><div>Step 01</div><h1>Fill Out the Order Form</h1><p>Tell us about your project by completing a short form.</p></div></div>
+        <div class="scroll-animate list-work2"><div><div>Step 02</div><h1>Pay the 30% Deposit</h1><p>Once we review your form, you'll receive an invoice for a 30% deposit</p></div></div>
+        <div class="scroll-animate list-work3"><div><div>Step 03</div><h1>Design Process Begins</h1><p>Our team starts working on your presentation based on your brief</p></div></div>
+        <div class="scroll-animate list-work4"><div><div>Step 04</div><h1> Revisions & Final Delivery</h1><p>You can request revisions if needed</p></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="note"><div>
+    <img src="privacy_19003855.gif"><h1>NOTE.</h1><p>We always keep privacy of our clients. So we don't share our client's presentation in public because it's a confidential.</p>
+  </div></section>
+  <section id="testimonialPage" class="testimonial-section">
+    <div class="testimonial-container">
+      <div class="testimonial-tittle">
+      <div class="tag-testimonial"><img src="fans_9583356.gif">Happy Client</div>
+      <h1>Testimonial</h1>
+      <p>Real stories from students, professionals, and brands who trusted us to elevate their presentations.</p>
+    </div>
+      <div class="image-testimonial">
+        <img class="scroll-animate" src="Artboard 1.png" alt=""><img class="scroll-animate" src="Artboard 2.png" alt=""><img class="scroll-animate" src="Artboard 3.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="formPage" class="form-section">
+      <div class="form-container">
+        <div class="text-form">
+           <div class="tag-form"><img src="Icons.svg">Lets Begin!</div>
+          <h1>Form Order</h1>
+          <p>Tell us who you are and how we can reach you</p>
+        </div>
+    <div>
+  <form id="contact-form">
+    <div class="form-row">
+      <input class="scroll-animate" type="text" name="fullname" placeholder="Your Name" required>
+      <input class="scroll-animate" type="email" name="email" placeholder="Your Email" required>
+      <input class="scroll-animate" type="number" name="whatsapp" placeholder="Number Whatsapp" required>
+      <textarea class="scroll-animate" name="message" placeholder="Message" required></textarea>
+    </div>
+    <button type="submit" class="scroll-animate btn-submit">Send Form</button>
+  </form>
+  </div>
+  </div>
+  </section>
+  <section class="footer-section">
+    <div class="footer-container">
+      <div class="top-footer">
+        <div class="footer-company"><div class="logo-company-footer"><img src="Untitled-1.png" alt="logoCompany"></div>
+        <div class="explain-company"><h1>PLACE<span style="color: #00BECC;">PLATE</span></h1><p>Best PowerPoint Morph</p></div></div>
+        <div class="contact-footer">
+          <div class="whatsapp-detail"><p><span style="font-weight: 600;">No.WhatsApp</span></p><p>+62-8199792-7692</p></div>
+          <div class="email-detail"><p><span style="font-weight: 600;">Email</span></p><p>helo@placeplate.com</p></div>
+        </div>
+      </div>
+      <div class="end-footer-container">
+      <div class="end-footer">
+        <p>Copyright © 2025 placeplate.com</p>
+        <div>
+          <a href="https://www.tiktok.com/@placeplate?is_from_webapp=1&sender_device=pc"><li><img src="tiktok-brands-solid-full.svg"></li></a>
+          <a href="https://www.instagram.com/placeplate12345/"><li><img src="instagram-brands-solid-full.svg"></li></a>
+          <a href="https://pin.it/2KmyRvOS8"><li><img src="pinterest-p-brands-solid-full.svg"></li></a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <video class="background-video" autoplay muted loop playsinline >
+    <source src="GettyImages-683945392.mp4" type="video/mp4">
+  </video>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+
+const buttons = document.querySelectorAll('.displayLink p');
+const linkWrapper = document.querySelector('.displayLink');
+const btnPer = document.querySelector('.PerslideBtn');
+const btn1 = document.querySelector('.Price1');
+const btn2 = document.querySelector('.Price2');
+const btn3 = document.querySelector('.Price3');
+
+buttons.forEach((btn, index) => {
+  btn.addEventListener('click', () => {
+    // Jika klik elemen kedua (Perslide)
+    if (index === 1) {
+      linkWrapper.classList.add('right');
+      btnPer.classList.add('display')
+      btn1.classList.add('hide')
+      btn2.classList.add('hide')
+      btn3.classList.add('hide')
+    } else {
+      linkWrapper.classList.remove('right');
+      btnPer.classList.remove('display')
+      btn1.classList.remove('hide')
+      btn2.classList.remove('hide')
+      btn3.classList.remove('hide')
+    }
+  });
+});
+
+    function scrollToHome(){
+    let content = document.getElementById("listResponse");
+      if (content.style.height === "80vh" || content.style.height === "") {
+        content.style.height = "0vh"
+      }
+      else{
+        content.style.height = "0vh"
+      }
+      const home = document.getElementById("homePage");
+      home.scrollIntoView({behavior: "smooth"})
+    }
+
+    function scrollToAbout(){
+    let content = document.getElementById("listResponse");
+      if (content.style.height === "0vh" || content.style.height === "") {
+        content.style.height = "80vh"
+      }
+      else{
+        content.style.height = "0vh"
+      }
+      const about = document.getElementById("aboutPage");
+      about.scrollIntoView({behavior: "smooth"})
+    }
+
+    function scrollToTestimonial(){
+    let content = document.getElementById("listResponse");
+      if (content.style.height === "0vh" || content.style.height === "") {
+        content.style.height = "80vh"
+      }
+      else{
+        content.style.height = "0vh"
+      }
+      const testimoni = document.getElementById("testimonialPage");
+      testimoni.scrollIntoView({behavior: "smooth"})
+    }
+
+    function scrollToForm(){
+    let content = document.getElementById("listResponse");
+      if (content.style.height === "0vh" || content.style.height === "") {
+        content.style.height = "80vh"
+      }
+      else{
+        content.style.height = "0vh"
+      }
+      const form1 = document.getElementById("formPage");
+      form1.scrollIntoView({behavior: "smooth"})
+    }
+
+    function scrollToService(){
+    let content = document.getElementById("listResponse");
+      if (content.style.height === "0vh" || content.style.height === "") {
+        content.style.height = "80vh"
+      }
+      else{
+        content.style.height = "0vh"
+      }
+      const section = document.getElementById("servicePage");
+    section.scrollIntoView({ behavior: "smooth" })
+    } 
+
+    function goToStore(){
+      window.location.href = "https://linktr.ee/PlacePlate";
+    }
+
+    function barsDisplay(){
+      let content = document.getElementById("listResponse");
+      if (content.style.height === "0vh" || content.style.height === "") {
+        content.style.height = "80vh"
+      }
+      else{
+        content.style.height = "0vh"
+      }
+    }
+    window.addEventListener("resize", function () {
+  let content = document.getElementById("listResponse");
+  if (window.innerWidth > 1160) {
+    content.style.height = "0vh"
+  }
+});
+window.addEventListener("load", function () {
+  let content = document.getElementById("listResponse");
+  if (window.innerWidth < 1160) {
+    content.style.height = "0vh"
+  }
+});
+window.addEventListener("resize", function () {
+  let content = document.getElementById("listResponse");
+  if (window.innerWidth < 1160) {
+    content.style.height = "0vh"
+  }
+});
+
+  // Inisialisasi EmailJS
+(function(){
+  emailjs.init("QsPsXnOnsIIDDrkCm"); // ganti dengan Public Key EmailJS kamu
+})();
+
+document.getElementById("contact-form").addEventListener("submit", function(e){
+  e.preventDefault();
+
+  emailjs.sendForm("service_woeit5j","template_wed1v0a", this)
+    .then(function() {
+      alert("✅ The form has been submitted successfully! We will contact you within 24 hours..");
+      document.getElementById("contact-form").reset();
+    }, function(error) {
+      alert("❌ there is an error: " + error.text);
+    });
+});
+
+const elements = document.querySelectorAll('.scroll-animate');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, index) => {
+    if (entry.isIntersecting) {
+      // Tambahkan delay bertahap
+      setTimeout(() => {
+        entry.target.classList.add('show');
+      }, index * 200); // ubah 200 untuk mempercepat atau memperlambat
+
+      // Stop observasi agar animasi hanya sekali
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.2, // 0.2 = elemen muncul ketika 20% bagian sudah terlihat
+});
+
+elements.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
